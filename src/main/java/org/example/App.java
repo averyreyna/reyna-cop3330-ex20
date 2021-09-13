@@ -29,7 +29,7 @@ public class App
         double subtotal = convertedOrderAmount;
         double updatedTax = 0;
 
-        // prompts the user for more information if they live in wisconsin, with the conuty totals being updated
+        // prompts the user for more information if they live in Wisconsin, with the county tax totals being updated
         // as such
         if (inputState.equals("Wisconsin"))
         {
